@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Node.js modules: incorrect export. The `bug.js` file contains a function that is exported, but the export might not be handled correctly by other modules that try to import and use it, leading to runtime errors. The `bugSolution.js` shows how to solve the problem with proper module export and import.
